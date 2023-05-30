@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family */
+    /* box-sizing: border-box; */
+}
+body{
+    background: #eeeeee;
+}
+.head{
+    /* margin: 0 40px; */
+    display: flex;
+    background:rgb(255, 255, 255) ;
+    justify-content: space-between;
+    /* padding-left:40px;  */
+    align-items: center;
+    padding: 0 40px ;
+}
+.nav a{
+    text-decoration: none;
+font-size: 30px;
+padding-right: 20px;
+color: rgb(71, 71, 71);
+flex-wrap: wrap;
+
+}
+.nav a:hover{
+    color: rgb(0, 0, 0);
+}
+.content{
+        background-image :url(https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-927022.jpg&fm=jpg);
+        background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+ align-items: center; 
+ display: flex;  
+ /* margin: 10px; */
+/* align-content: center; */
+}
+.content h1{
+    font-size: 70px;
+}
+.text{
+padding-left: 3%;
+}
+.skil{
+    /* align-items: center; */
+    margin:100px 8%;
+    /* display: flex; */
+    /* height: 80vh; */
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+}
+
+.skil h2 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+}
+.tag{
+    display: flex;
+    margin:100px 8%;
+
+    align-items: center;
+font-size: 30px;
+justify-content: space-between;
+}
+.level{
+    margin: 10px 100px;
+    background: #bababa;
+    /* height: 10px; */
+    height: 42px;
+    width: 434px;
+    border-radius: 50px;
+    box-sizing: content-box;
+}
+#html{
+    height: 42px;
+        width: 80%; 
+    background: #000;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    /* border-radius: 50px; */
+}
+#css{
+    height: 42px;
+        width:60%; 
+    background: #000;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+#java{
+    height: 42px;
+        width: 20%; 
+    background: #000;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.myself{
+    /* height: 100px; */
+    /* width: 100%; */
+    background: #ffffff;
+    padding:100px 3% ;
+    display: flex;
+}
+.image{
+    width: 50%;
+    /* background-size: cover; */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.image img{
+    border-radius: 4px;
+    box-shadow: -23px 22px 5px -2px black;
+}
+.imgText{
+    font-family: 'Josefin Sans', sans-serif;
+width: 50%;
+}
+button{
+    background: #000000;
+    padding: 3px 10px;
+    color: white; 
+    border: none;
+}
+
+
