@@ -1,0 +1,107 @@
+*{
+    margin: 0;padding: 0;
+}
+.head{
+    /* background: rgb(222, 222, 222); */
+
+       background-image: url(  https://i.ibb.co/QDMn8hn/Screenshot-2023-05-12-103438-removebg-preview.png);
+}
+.bg{
+    
+    /* background-color:rgb(230,218,206); */
+    /* padding: 80px; */
+    /* display: flex; */
+    display: grid;
+    /* margin: 80px 9%; */
+}
+
+.pro{
+    margin: 50px 15%;
+    /* padding: 0px 10%; */
+    background: white;
+    border-radius: 2px;
+    /* box-shadow:; */
+    /* box-shadow: 5px 5px 5px 5px rgba(71, 71, 71, 0.39); */
+    /* box-shadow: 1px 5px 29px rgba(71, 71, 71, 0.4); */
+    box-shadow: -3px 8px 16px 5px rgba(79, 71, 71, 0.3);
+display: flex;
+height: 450px;
+/* : 80%; */
+/* margin-bottom: 100px ; */
+/* padding-top: 100px; */
+}
+.p_ing{
+    background: #cdcdcd;
+    width:40%;
+}
+.text{
+    padding: 30px 4%;
+
+    width: 60%;
+}
+.text h2{
+    /* text-align: center; */
+    font-size: 40px;
+    /* font-family: 'Josefin Sans', sans-serif; */
+}
+.text p{
+    padding: 30px 0;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+ sup{
+    font-size: 20px;
+    /* font-weight: 0; */
+}
+#button{
+    padding: 10px 30px;
+    /* margin: 10px 300px; */
+    background: #cecece;
+    text-decoration: none;
+    color: black;
+}
+#button:hover{
+    background: #262626;
+    color: white;
+}
+#netflix{
+    padding: 10px 30px;
+    /* margin: 10px 300px; */
+    background: #cecece;
+    text-decoration: none;
+    color: black;
+}
+
+#netflix:hover{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.732),rgba(0, 0, 0, 0.217)), url(https://i.pinimg.com/originals/a5/96/bd/a596bdf3743ddf87e0796805eac8aae4.gif);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   /* text-transform: none; */
+   /* border: 10px black; */
+color: white;
+text-transform: bold;
+
+}
+#logo{
+    /* position: relative; */
+    /* bottom: 47px; */
+    /* left: 70px; */
+    display: inline-block;
+    
+   
+  }
+.add{
+    position: absolute;
+    top: 450px;
+}
+#blue{
+    background:#2874f0;
+    /* padding:  10px 10px; */
+    color: white;
+    width: 50%;
+    position: relative;
+    right: 30px;
+    padding-left: 30px;
+
+}
