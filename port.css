@@ -1,20 +1,28 @@
+/* Google Font CDN Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
-    /* font-family */
-    /* box-sizing: border-box; */
+    font-family: 'Poppins', sans-serif;
+    box-sizing: content-box;
 }
 body{
-    background: #eeeeee;
+    background: #f0f8ff;
 }
 .head{
     /* margin: 0 40px; */
     display: flex;
+    position: fixed;
+    width: 100%;
     background:rgb(255, 255, 255) ;
-    justify-content: space-between;
+    justify-content: space-evenly;
     /* padding-left:40px;  */
     align-items: center;
-    padding: 0 40px ;
+    /* margin: 0 40px ; */
+}
+#blue{
+    color:#5580f5;
 }
 .nav a{
     text-decoration: none;
@@ -22,17 +30,34 @@ font-size: 30px;
 padding-right: 20px;
 color: rgb(71, 71, 71);
 flex-wrap: wrap;
+}
+
+
+#project{
+/* background-image: url(https://img1.picmix.com/output/stamp/normal/6/8/6/5/1965686_1a76e.gif); */
+background:#4070f4;
+/* background-image: url(https://media3.giphy.com/media/MRtqvTqgmmzdYeQIJF/giphy.gif?cid=ecf05e47qm0eh0kyew8cshrmcwfqmtapdkdbw3n93dy58d2r&ep=v1_gifs_related&rid=giphy.gif&ct=g); */
+background-size: cover;
+background-image: url(https://media4.giphy.com/media/dAWZiSMbMvObDWP3aA/giphy.gif?cid=ecf05e47u2xef0ljtk5teq3uv6zgyy9g09heigz654gj0bq2&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    /* border:solid black 3px; */
 
 }
 .nav a:hover{
     color: rgb(0, 0, 0);
 }
 .content{
-        background-image :url(https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-927022.jpg&fm=jpg);
-        background-size: cover;
-    background-repeat: no-repeat;
+        /* background-image :url(https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-927022.jpg&fm=jpg); */
+       
     height: 100vh;
     width: 100%;
+    /* position: fixed; */
  align-items: center; 
  display: flex;  
  /* margin: 10px; */
@@ -128,3 +153,64 @@ button{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer section */
+footer{
+    background:#4070f4;
+    /* height: 30px; */
+    /* height: ; */
+    /* width: 100%; */
+    color: white;
+    /* height: ; */
+}
+.title{
+    background: white;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+    
+}
+#center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.about{
+    margin: 20px 8%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.row ul li ,.row a{
+    text-decoration: none;
+    color: white;
+    
+}
+.row ul li{
+    list-style: none;
+
+}
+.row h4{
+    color: white;
+    font-size: 30px;
+}
